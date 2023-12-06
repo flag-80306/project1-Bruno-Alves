@@ -1,0 +1,14 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.menu > ul {
+  justify-content: space-evenly;
+  display: flex;
+  list-style-type: none;
+}
