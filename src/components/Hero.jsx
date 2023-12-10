@@ -1,13 +1,11 @@
 function Hero() {
   return (
     <>
-      <div className="hero">
-        <div className="gradientFilter">
+      <div className="heroImage">
+        <div className="heroGradient">
           <div className="heroNav">
+            <a href="#">The Travel Blog</a>
             <ul>
-              <li>
-                <a href="#">Travel Blog</a>
-              </li>
               <li>
                 <a href="#">Home</a>
               </li>
@@ -21,9 +19,8 @@ function Hero() {
           </div>
 
           <div className="heroDetail">
-            <p>Latest Posts</p>
-            <h2>Berlin</h2>
-            <p>10/12/2023</p>
+            <h1>Project 1</h1>
+            <h1>The Travel Blog</h1>
           </div>
         </div>
       </div>
