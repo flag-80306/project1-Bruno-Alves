@@ -1,0 +1,13 @@
+.cardsSection {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 96px;
+}
+
+.card {
+  width: 200px;
+}
+
+.card > img {
+  width: 100%;
+}
