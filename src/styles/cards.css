@@ -1,5 +1,7 @@
 .cardsSection {
   display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
   justify-content: space-between;
   padding: 0 96px;
 }

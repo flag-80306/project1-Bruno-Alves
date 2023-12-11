@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Michroma&family=Sarabun:wght@400;700&display=swap");
 @import url(styles/hero.css);
 @import url(styles/cards.css);
+@import url(styles/footer.css);
 
 * {
   box-sizing: border-box;
@@ -11,4 +12,8 @@ body {
   padding: 0;
   background-color: #f8ebee;
   font-family: "Sarabun", sans-serif;
+}
+
+a {
+  text-decoration: none;
 }

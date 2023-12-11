@@ -14,6 +14,21 @@ const cardsInfo = [
     city: "Lisboa",
     date: "10/06/2022",
   },
+  {
+    imgURL: "../assets/images/madrid.jpg",
+    city: "Lisboa",
+    date: "10/06/2022",
+  },
+  {
+    imgURL: "../assets/images/madrid.jpg",
+    city: "Lisboa",
+    date: "10/06/2022",
+  },
+  {
+    imgURL: "../assets/images/madrid.jpg",
+    city: "Lisboa",
+    date: "10/06/2022",
+  },
 ];
 
 export default cardsInfo;
