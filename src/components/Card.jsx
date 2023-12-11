@@ -2,6 +2,7 @@ import cardsInfo from "../assets/data/cardsInfo";
 function Card() {
   //   console.log(cardsInfo.length);
   //   console.log(cardsInfo.map((trip) => trip));
+  console.log(cardsInfo[0].imgURL);
   return (
     <div className="cardsSection">
       {cardsInfo.map((trip, index) => (
