@@ -1,14 +1,19 @@
+import { Link } from "wouter";
+
 function Header() {
   return (
     <>
       <div className="header">
-        <a href="#">The Travel Blog</a>
+        <Link href="/">The Travel Blog</Link>
+        {/* <a href="#">The Travel Blog</a> */}
         <ul>
           <li>
-            <a href="#">Home</a>
+            <Link href="/">Home</Link>
+            {/* <a href="#">Home</a> */}
           </li>
           <li>
-            <a href="#">Add Location</a>
+            <Link href="/newlocation">Add Location</Link>
+            {/* <a href="#">Add Location</a> */}
           </li>
           <li>
             <a href="#">The Traveler</a>

@@ -1,7 +1,5 @@
-import cardsInfo from "../assets/data/cardsInfo";
+import cardsInfo from "../assets/trips/cardsInfo";
 function HomeViewCards() {
-  //   console.log(cardsInfo.length);
-  //   console.log(cardsInfo.map((trip) => trip));
   console.log(cardsInfo[0].imgURL);
   return (
     <div className="cardsSection">
