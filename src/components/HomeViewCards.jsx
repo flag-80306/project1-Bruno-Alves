@@ -1,5 +1,5 @@
 import cardsInfo from "../assets/data/cardsInfo";
-function Card() {
+function HomeViewCards() {
   //   console.log(cardsInfo.length);
   //   console.log(cardsInfo.map((trip) => trip));
   console.log(cardsInfo[0].imgURL);
@@ -19,4 +19,4 @@ function Card() {
   );
 }
 
-export default Card;
+export default HomeViewCards;
