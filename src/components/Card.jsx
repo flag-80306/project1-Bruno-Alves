@@ -8,8 +8,11 @@ function Card() {
       {cardsInfo.map((trip, index) => (
         <div className="card" key={index}>
           <img src={trip.imgURL} alt={`Image for ${trip.city}`} />
-          <p>{trip.city}</p>
-          <p>{trip.date}</p>
+          <p>
+            <span>{trip.city}</span>
+            <br />
+            {trip.date}
+          </p>
         </div>
       ))}
     </div>

@@ -2,14 +2,36 @@
   display: flex;
   flex-wrap: wrap;
   gap: 40px;
-  justify-content: center;
+  justify-content: flex-start;
   padding: 0 96px;
+  margin: 48px 0;
 }
 
 .card {
-  width: 200px;
+  border-radius: 15px;
+  box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.25);
+  max-width: 300px;
+  max-height: 300px;
+  transition: all 0.4s ease;
+  overflow: hidden;
+}
+
+.card:hover {
+  /* scale: 120%; */
+  transform: scale(1.2);
 }
 
 .card > img {
   width: 100%;
+  height: 70%;
+  object-fit: cover;
+}
+
+.card > p {
+  padding: 0 16px;
+}
+
+.card > p > span {
+  font-size: 24px;
+  font-weight: 700;
 }
