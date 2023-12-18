@@ -1,6 +1,6 @@
 const cardsInfo = [
   {
-    imgURL: "images/buenos_aires_image_1.jpg",
+    imgURL: "images/buenos-aires.jpg",
     city: "Buenos Aires",
     date: "15/08/2008",
   },
@@ -10,7 +10,7 @@ const cardsInfo = [
     date: "05/02/2017",
   },
   {
-    imgURL: "../images/madrid.jpg",
+    imgURL: "../images/lisboa.jpg",
     city: "Lisboa",
     date: "10/06/2022",
   },

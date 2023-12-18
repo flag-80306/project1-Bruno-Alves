@@ -3,6 +3,7 @@
 @import url(styles/hero.css);
 @import url(styles/cards.css);
 @import url(styles/footer.css);
+@import url(styles/addLocation.css);
 
 * {
   box-sizing: border-box;

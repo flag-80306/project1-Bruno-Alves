@@ -1,6 +1,6 @@
 import cardsInfo from "../assets/trips/cardsInfo";
 function HomeViewCards() {
-  console.log(cardsInfo[0].imgURL);
+  // console.log(cardsInfo[2].imgURL);
   return (
     <div className="cardsSection">
       {cardsInfo.map((trip, index) => (

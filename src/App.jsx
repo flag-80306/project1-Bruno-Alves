@@ -6,6 +6,7 @@ import HomeView from "./views/HomeView";
 import AboutView from "./views/AboutView";
 import AddLocationView from "./views/AddLocationView";
 import NotFoundView from "./views/NotFoundView";
+import CardDetailView from "./views/CardDetailView";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Header />
       <Switch>
         <Route path="/" component={HomeView} />
+        <Route path="/carddetail" component={CardDetailView} />
         <Route path="/newlocation" component={AddLocationView} />
         <Route path="/aboutme" component={AboutView} />
         <Route component={NotFoundView} />
