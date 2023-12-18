@@ -16,7 +16,8 @@ function Header() {
             {/* <a href="#">Add Location</a> */}
           </li>
           <li>
-            <a href="#">The Traveler</a>
+            <Link href="/aboutme">About Me</Link>
+            {/* <a href="#">The Traveler</a> */}
           </li>
         </ul>
       </div>

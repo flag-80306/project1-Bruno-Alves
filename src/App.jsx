@@ -5,21 +5,17 @@ import Footer from "./components/Footer";
 import HomeView from "./views/HomeView";
 import AboutView from "./views/AboutView";
 import AddLocationView from "./views/AddLocationView";
+import NotFoundView from "./views/NotFoundView";
 
 function App() {
   return (
     <>
       <Header />
       <Switch>
-        <Route path="/">
-          <HomeView />
-        </Route>
-        <Route path="/about">
-          <AboutView />
-        </Route>
-        <Route path="/newlocation">
-          <AddLocationView />
-        </Route>
+        <Route path="/" component={HomeView} />
+        <Route path="/newlocation" component={AddLocationView} />
+        <Route path="/aboutme" component={AboutView} />
+        <Route component={NotFoundView} />
       </Switch>
       <Footer />
     </>
