@@ -14,9 +14,9 @@ function App() {
       <Header />
       <Switch>
         <Route path="/" component={HomeView} />
-        <Route path="/carddetail" component={CardDetailView} />
         <Route path="/newlocation" component={AddLocationView} />
         <Route path="/aboutme" component={AboutView} />
+        <Route path="/tripdetail/:name" component={CardDetailView} />
         <Route component={NotFoundView} />
       </Switch>
       <Footer />
