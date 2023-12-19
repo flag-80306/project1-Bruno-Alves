@@ -4,9 +4,14 @@
 @import url(styles/cards.css);
 @import url(styles/footer.css);
 @import url(styles/addLocation.css);
+@import url(styles/about.css);
 
 * {
   box-sizing: border-box;
+}
+
+:root {
+  position: relative;
 }
 
 body {
@@ -18,4 +23,9 @@ body {
 
 a {
   text-decoration: none;
+}
+
+p {
+  padding: 0;
+  margin: 0;
 }
