@@ -1,6 +1,7 @@
 import Slider from "../components/Slider";
 
 function CardDetailView({ params }) {
+  console.log(params);
   return (
     <>
       <div className="headerBackground"></div>
