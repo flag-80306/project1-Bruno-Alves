@@ -9,9 +9,6 @@ function AddLocationView() {
     description: "",
   });
 
-  // const handleChange = (event) => {
-  //   setFormData(event.target.value);
-  // };
   const handleChange = (event) => {
     const { name, value } = event.target;
     setFormInfo((initialState) => ({
@@ -27,11 +24,7 @@ function AddLocationView() {
 
   return (
     <>
-      <div className="heroImage">
-        <div className="heroGradient">
-          <div className="heroDetail"></div>
-        </div>
-      </div>
+      <div className="headerBackground"></div>
 
       <form onSubmit={handleSubmit}>
         <label>
@@ -85,7 +78,7 @@ function AddLocationView() {
           <label>
             <textarea
               name="description"
-              cols="30"
+              cols="50"
               rows="10"
               value={formInfo.description}
               onChange={handleChange}

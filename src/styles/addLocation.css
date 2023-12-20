@@ -2,10 +2,12 @@ form {
   display: flex;
   flex-direction: column;
   gap: 15px;
-  position: fixed;
-  left: 96px;
-  top: 96px;
-  color: #f8ebee;
+  margin: 80px 96px 409px;
+  color: #3b465c;
+}
+
+form > fieldset {
+  width: 60px;
 }
 
 label > input {
