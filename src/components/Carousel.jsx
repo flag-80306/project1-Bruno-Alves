@@ -8,11 +8,21 @@ function Carousel({ city }) {
       <h3>Details from {city.name}</h3>
 
       <div className="carousel">
-        <BsArrowLeftCircleFill />
+        <BsArrowLeftCircleFill className="arrow arrow-left" />
         {city.slides?.map((slide, index) => (
-          <img src={slide} className="slide" alt={`Image of ${city.name}`} />
+          <img
+            src={slide}
+            className="slide"
+            alt={`Image of ${city.name}`}
+            key={index}
+          />
         ))}
-        <BsArrowRightCircleFill />
+        <BsArrowRightCircleFill className="arrow arrow-right" />
+        <span className="indicators">
+          {city.slides?.map((_, index) => (
+            <button key={index} onClick={null} className="indicator"></button>
+          ))}
+        </span>
       </div>
     </>
   );
