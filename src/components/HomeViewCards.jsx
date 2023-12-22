@@ -18,14 +18,14 @@ function HomeViewCards() {
 
   return (
     <div className="cardsSection">
-      {data.map((trip, index) => (
-        <Link href={"tripdetail/" + trip.id}>
-          <div className="card" key={trip.id}>
-            <img src={trip.imgURL} alt={`Image for ${trip.city}`} />
+      {data.map((city) => (
+        <Link href={"tripdetail/" + city.id}>
+          <div className="card" key={city.id}>
+            <img src={city.imgURL} alt={`Image for ${city.city}`} />
             <p>
-              <span>{trip.city}</span>
+              <span>{city.name}</span>
               <br />
-              {trip.date}
+              {city.date}
             </p>
           </div>
         </Link>

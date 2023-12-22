@@ -15,7 +15,10 @@ function App() {
         <Route path="/" component={HomeView} />
         <Route path="/newlocation" component={AddLocationView} />
         <Route path="/aboutme" component={AboutView} />
-        <Route path="/tripdetail/:name" component={CardDetailView} />
+        <Route path="/tripdetail/:id">
+          {(params) => <CardDetailView id={params.id} />}
+        </Route>
+        {/* <Route path="/tripdetail/:name" component={CardDetailView} /> */}
         <Route component={NotFoundView} />
       </Switch>
       <Footer />
