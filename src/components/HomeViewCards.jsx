@@ -1,5 +1,4 @@
 import { Link } from "wouter";
-import cardsInfo from "../assets/trips/cardsInfo";
 import { useEffect, useState } from "react";
 function HomeViewCards() {
   const [data, setData] = useState([]);

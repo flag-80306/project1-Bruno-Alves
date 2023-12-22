@@ -5,6 +5,7 @@
 @import url(styles/footer.css);
 @import url(styles/addLocation.css);
 @import url(styles/about.css);
+@import url(styles/carousel.css);
 
 * {
   box-sizing: border-box;

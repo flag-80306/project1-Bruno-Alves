@@ -1,4 +1,4 @@
-import Slider from "../components/Slider";
+import Carousel from "../components/Carousel";
 import { useState, useEffect } from "react";
 
 function CardDetailView({ id }) {
@@ -28,7 +28,7 @@ function CardDetailView({ id }) {
       <p>{city.id}</p>
       <p>{city.name}</p>
       <p>{city.date}</p>
-      <Slider city={city.slides} />
+      <Carousel city={city} />
     </>
   );
 }
