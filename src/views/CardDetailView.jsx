@@ -28,7 +28,7 @@ function CardDetailView({ id }) {
       <p>{city.id}</p>
       <p>{city.name}</p>
       <p>{city.date}</p>
-      <Slider city={city.name} />
+      <Slider city={city.slides} />
     </>
   );
 }

@@ -21,7 +21,7 @@ function HomeViewCards() {
       {data.map((city) => (
         <Link href={"tripdetail/" + city.id}>
           <div className="card" key={city.id}>
-            <img src={city.imgURL} alt={`Image for ${city.city}`} />
+            <img src={city.cardImg} alt={`Image for ${city.city}`} />
             <p>
               <span>{city.name}</span>
               <br />

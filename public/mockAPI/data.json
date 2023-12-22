@@ -1,37 +1,67 @@
 [
   {
     "id": 1,
-    "imgURL": "images/buenos-aires.jpg",
+    "cardImg": "../images/buenos-aires.jpg",
+    "slides": [
+      "../images/buenos-aires.jpg",
+      "../images/madrid.jpg",
+      "../images/lisboa.jpg"
+    ],
     "name": "Buenos Aires",
     "date": "15/08/2008"
   },
   {
     "id": 2,
-    "imgURL": "../images/madrid.jpg",
+    "cardImg": "../images/madrid.jpg",
+    "slides": [
+      "../images/buenos-aires.jpg",
+      "../images/madrid.jpg",
+      "../images/lisboa.jpg"
+    ],
     "name": "Madrid",
     "date": "05/02/2017"
   },
   {
     "id": 3,
-    "imgURL": "../images/lisboa.jpg",
+    "cardImg": "../images/lisboa.jpg",
+    "slides": [
+      "../images/buenos-aires.jpg",
+      "../images/madrid.jpg",
+      "../images/lisboa.jpg"
+    ],
     "name": "Lisboa",
     "date": "10/06/2022"
   },
   {
     "id": 4,
-    "imgURL": "images/buenos-aires.jpg",
+    "cardImg": "../images/buenos-aires.jpg",
+    "slides": [
+      "../images/buenos-aires.jpg",
+      "../images/madrid.jpg",
+      "../images/lisboa.jpg"
+    ],
     "name": "Buenos Aires",
     "date": "15/08/2008"
   },
   {
     "id": 5,
-    "imgURL": "../images/madrid.jpg",
+    "cardImg": "../images/madrid.jpg",
+    "slides": [
+      "../images/buenos-aires.jpg",
+      "../images/madrid.jpg",
+      "../images/lisboa.jpg"
+    ],
     "name": "Madrid",
     "date": "05/02/2017"
   },
   {
     "id": 6,
-    "imgURL": "../images/lisboa.jpg",
+    "cardImg": "../images/lisboa.jpg",
+    "slides": [
+      "../images/buenos-aires.jpg",
+      "../images/madrid.jpg",
+      "../images/lisboa.jpg"
+    ],
     "name": "Lisboa",
     "date": "10/06/2022"
   }
