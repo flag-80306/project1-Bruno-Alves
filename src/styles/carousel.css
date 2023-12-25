@@ -14,16 +14,22 @@
   height: 100%;
 }
 
+.slide-hidden {
+  display: none;
+}
+
 .arrow {
   position: absolute;
   filter: drop-shadow(0px 0px 5px #555);
   width: 2rem;
   height: 2rem;
   color: white;
+  opacity: 0.8;
 }
 
 .arrow:hover {
   cursor: pointer;
+  opacity: 1;
 }
 
 .arrow-left {
@@ -50,4 +56,8 @@
   box-shadow: 0px 0px 5px #555;
   margin: 0 0.2rem;
   cursor: pointer;
+}
+
+.indicator-inactive {
+  background-color: grey;
 }
