@@ -5,6 +5,7 @@
   width: 600px;
   height: 400px;
   position: relative;
+  margin: auto;
 }
 
 .slide {
