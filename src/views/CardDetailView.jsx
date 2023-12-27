@@ -2,6 +2,7 @@ import Carousel from "../components/Carousel";
 import { useState, useEffect } from "react";
 
 function CardDetailView({ id }) {
+  console.log("Console.log id!");
   console.log(id);
 
   const [city, setCity] = useState({});
@@ -16,6 +17,7 @@ function CardDetailView({ id }) {
       const foundElement = result.find((elem) => {
         return elem.id == id;
       });
+      console.log("Console.log foundElement!");
       console.log(foundElement);
       setCity(foundElement);
     })();

@@ -24,9 +24,9 @@ function Carousel({ city }) {
           className="arrow arrow-left"
           onClick={prevSlide}
         />
-        {city.slides?.map((slideSRC, index) => (
+        {city.slides?.map((imageSource, index) => (
           <img
-            src={slideSRC}
+            src={imageSource}
             className={slide === index ? "slide" : "slide slide-hidden"}
             alt={`Image of ${city.name}`}
             key={index}

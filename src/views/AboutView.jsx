@@ -41,6 +41,8 @@ function AboutView() {
       <h2>This is the About View</h2>
       <h2>This is the About View</h2>
       <h2>This is the About View</h2>
+      <h2>This is the About View</h2>
+      <h2>This is the About View</h2>
     </>
   );
 }
