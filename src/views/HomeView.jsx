@@ -5,7 +5,7 @@ function HomeView() {
   return (
     <>
       <Hero />
-      <HomeViewCards />
+      <HomeViewCards slug={"tripdetail/"} />
     </>
   );
 }

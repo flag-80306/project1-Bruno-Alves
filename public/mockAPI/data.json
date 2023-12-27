@@ -14,8 +14,8 @@
     "id": 2,
     "cardImg": "../images/madrid.jpg",
     "slides": [
-      "../images/buenos-aires.jpg",
       "../images/madrid.jpg",
+      "../images/buenos-aires.jpg",
       "../images/lisboa.jpg"
     ],
     "name": "Madrid",
@@ -25,9 +25,9 @@
     "id": 3,
     "cardImg": "../images/lisboa.jpg",
     "slides": [
+      "../images/lisboa.jpg",
       "../images/buenos-aires.jpg",
-      "../images/madrid.jpg",
-      "../images/lisboa.jpg"
+      "../images/madrid.jpg"
     ],
     "name": "Lisboa",
     "date": "10/06/2022"

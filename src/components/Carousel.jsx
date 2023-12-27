@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { BsArrowLeftCircleFill, BsArrowRightCircleFill } from "react-icons/bs";
+import HomeViewCards from "./HomeViewCards";
 
 function Carousel({ city }) {
   console.log("Console.log city!!!");
@@ -47,6 +48,7 @@ function Carousel({ city }) {
           ))}
         </span>
       </div>
+      <HomeViewCards slug={""} />
     </>
   );
 }
