@@ -1,7 +1,13 @@
-.headerBackground {
-  height: 50px;
-  width: 100%;
-  background-color: #3b465c;
-  position: fixed;
-  top: 0;
+.travelerContainer {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.travelerPhoto {
+  display: flex;
+  flex-direction: column;
+}
+
+.travelerDescription {
+  max-width: 600px;
 }
