@@ -24,6 +24,7 @@ function CardDetailView({ id }) {
   return (
     <>
       <div className="headerBackground"></div>
+      <div className="spacer"></div>
       <h2>The details</h2>
       <p>{city.id}</p>
       <p>{city.name}</p>

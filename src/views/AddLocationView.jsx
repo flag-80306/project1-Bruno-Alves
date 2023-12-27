@@ -25,6 +25,7 @@ function AddLocationView() {
   return (
     <>
       <div className="headerBackground"></div>
+      <div className="spacer"></div>
 
       <form onSubmit={handleSubmit}>
         <label>

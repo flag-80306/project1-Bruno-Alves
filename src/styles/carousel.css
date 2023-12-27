@@ -36,9 +36,9 @@
   position: absolute;
   /* visibility: hidden; */
   width: 0;
-  /* left: -600px; */
-  /* transition: opacity 0.5s, visibility 0.5s, height 0.5s; */
-  /* overflow: hidden;  */
+  /* left: -600px;
+  transition: opacity 0.5s, visibility 0.5s, height 0.5s;
+  overflow: hidden; */
 }
 
 .arrow {

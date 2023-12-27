@@ -35,3 +35,7 @@ li > a:hover {
   color: black;
   border-radius: 8px;
 }
+
+.spacer {
+  margin-top: 80px;
+}
