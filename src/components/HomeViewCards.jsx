@@ -1,6 +1,7 @@
 import { Link } from "wouter";
 import { useEffect, useState } from "react";
-function HomeViewCards({ slug }) {
+
+function HomeViewCards() {
   const [data, setData] = useState([]);
 
   useEffect(() => {
@@ -18,7 +19,7 @@ function HomeViewCards({ slug }) {
   return (
     <div className="cardsSection">
       {data.map((city) => (
-        <Link href={slug + city.id}>
+        <Link href={"/tripdetail/" + city.id}>
           <div className="card" key={city.id}>
             <img src={city.cardImg} alt={`Image for ${city.city}`} />
             <p>

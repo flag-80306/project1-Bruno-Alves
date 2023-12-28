@@ -21,7 +21,7 @@ function CardDetailView({ id }) {
       console.log(foundElement);
       setCity(foundElement);
     })();
-  }, []);
+  }, [id]);
 
   return (
     <>

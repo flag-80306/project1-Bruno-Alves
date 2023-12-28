@@ -48,7 +48,7 @@ function Carousel({ city }) {
           ))}
         </span>
       </div>
-      <HomeViewCards slug={""} />
+      <HomeViewCards />
     </>
   );
 }
