@@ -6,6 +6,7 @@
 @import url(styles/addLocation.css);
 @import url(styles/about.css);
 @import url(styles/carousel.css);
+@import url(styles/cardDetailView.css);
 
 * {
   box-sizing: border-box;

@@ -28,11 +28,13 @@ function CardDetailView({ id }) {
     <>
       <div className="headerBackground"></div>
       <div className="spacer"></div>
-      <h2>The details</h2>
-      <p>{city.id}</p>
-      <p>{city.name}</p>
-      <p>{city.date}</p>
+      <div className="cityDetailContainer">
+        <h2>Trip to {city.name}</h2>
+        <p>{city.id}</p>
+        <p>{city.date}</p>
+      </div>
       <Carousel city={city} />
+      <p>{city.description}</p>
       <HomeViewCards />
     </>
   );

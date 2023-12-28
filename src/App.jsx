@@ -6,10 +6,12 @@ import AboutView from "./views/AboutView";
 import AddLocationView from "./views/AddLocationView";
 import NotFoundView from "./views/NotFoundView";
 import CardDetailView from "./views/CardDetailView";
+import ScrollToTop from "./components/ScrollToTop";
 
 function App() {
   return (
     <>
+      <ScrollToTop />
       <Header />
       <Switch>
         <Route path="/" component={HomeView} />

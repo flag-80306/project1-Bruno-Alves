@@ -1,68 +1,82 @@
 [
   {
     "id": 1,
-    "cardImg": "../images/buenos-aires.jpg",
-    "slides": [
-      "../images/buenos-aires.jpg",
-      "../images/madrid.jpg",
-      "../images/lisboa.jpg"
-    ],
     "name": "Buenos Aires",
-    "date": "15/08/2008"
+    "date": "15/08/2008",
+    "cardImg": "https://images.unsplash.com/photo-1694560446249-240043f487bc?q=80&w=1986&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "slides": [
+      "https://images.unsplash.com/photo-1586354822120-bf910e563cdf?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "../images/buenos-aires.jpg",
+      "https://images.unsplash.com/photo-1593014245414-cf9ce27cf1a5?q=80&w=1926&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "https://images.unsplash.com/photo-1694560446249-240043f487bc?q=80&w=1986&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "https://images.unsplash.com/photo-1601319841513-55b4496b80fd?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    ],
+    "description": "Explorar Buenos Aires é embarcar em uma jornada fascinante pela rica cultura argentina. O bairro de San Telmo cativa com suas ruas de paralelepípedos e o tango que ressoa nas esquinas. La Boca encanta com o vibrante Caminito e a paixão pelo futebol ao redor do estádio La Bombonera. A imponente Avenida 9 de Julio, com o Obelisco, destaca a grandiosidade da cidade, enquanto Recoleta impressiona com sua elegância e o célebre cemitério. Palermo Soho exibe a modernidade em meio à arquitetura europeia, oferecendo boutiques e restaurantes sofisticados. Em Buenos Aires, a cada esquina, descobre-se uma mistura envolvente de cores, sabores e emoções latinas."
   },
   {
     "id": 2,
-    "cardImg": "../images/madrid.jpg",
-    "slides": [
-      "../images/madrid.jpg",
-      "../images/buenos-aires.jpg",
-      "../images/lisboa.jpg"
-    ],
     "name": "Madrid",
-    "date": "05/02/2017"
+    "date": "05/02/2017",
+    "cardImg": "https://images.unsplash.com/photo-1539037116277-4db20889f2d4?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "slides": [
+      "https://images.unsplash.com/photo-1539037116277-4db20889f2d4?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "https://images.unsplash.com/photo-1558370781-d6196949e317?q=80&w=2079&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "https://images.unsplash.com/photo-1543783207-ec64e4d95325?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    ],
+    "description": "Explorar Madrid é imergir em um passeio envolvente pela rica herança cultural espanhola. No coração da cidade, a animada Puerta del Sol é um ponto de partida, pulsando com vida e rodeada por marcos históricos. O Palácio Real, com sua majestosa arquitetura, oferece uma visão imponente da monarquia espanhola. Os bulevares arborizados do Paseo del Prado levam a museus renomados, como o Museu do Prado, um tesouro artístico que cativa os amantes da arte. O bairro de La Latina atrai com suas ruelas pitorescas e bares de tapas animados, enquanto o Parque do Retiro proporciona um oásis tranquilo no coração da metrópole. A arquitetura vanguardista de lugares como a Puerta de Europa e o distrito de Gran Vía reflete a modernidade da cidade. Em Madrid, cada passo revela a riqueza histórica e a vitalidade contemporânea, proporcionando uma experiência turística memorável."
   },
   {
     "id": 3,
     "cardImg": "../images/lisboa.jpg",
+    "name": "Lisboa",
+    "date": "10/06/2022",
     "slides": [
       "../images/lisboa.jpg",
-      "../images/buenos-aires.jpg",
-      "../images/madrid.jpg"
+      "https://images.unsplash.com/photo-1585208798174-6cedd86e019a?q=80&w=2073&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "https://images.unsplash.com/photo-1578859651203-c7126a106b59?q=80&w=2072&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     ],
-    "name": "Lisboa",
-    "date": "10/06/2022"
+    "description": "Explorar Lisboa é embarcar em uma jornada encantadora pela capital portuguesa, onde a tradição se entrelaça harmoniosamente com a modernidade. O bairro histórico de Alfama, com suas ruelas estreitas e casas coloridas, revela a autenticidade da cidade, enquanto o Castelo de São Jorge oferece vistas deslumbrantes do Tejo e da cidade. O icônico elétrico 28 serpenteia pelas colinas, proporcionando uma viagem pitoresca por alguns dos locais mais emblemáticos, como a Sé de Lisboa e o Miradouro da Graça. A atmosfera boêmia de Bairro Alto convida os visitantes a explorar seus animados bares e casas de fado, proporcionando uma experiência autêntica da cultura portuguesa. À beira-rio, Belém encanta com sua arquitetura histórica, destacando o Mosteiro dos Jerónimos e a Torre de Belém. A modernidade de Parque das Nações, construído para a Expo 98, contrasta com a tradição, oferecendo uma visão contemporânea da cidade. Lisboa é um convite irresistível para desvendar a história, a cultura e a beleza cativante de Portugal."
   },
   {
     "id": 4,
-    "cardImg": "../images/buenos-aires.jpg",
+    "name": "Barcelona",
+    "date": "15/08/2008",
+    "cardImg": "https://images.unsplash.com/photo-1578912996078-305d92249aa6?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "slides": [
-      "../images/buenos-aires.jpg",
-      "../images/madrid.jpg",
-      "../images/lisboa.jpg"
+      "https://images.unsplash.com/photo-1578912996078-305d92249aa6?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "https://images.unsplash.com/photo-1630219694734-fe47ab76b15e?q=80&w=1952&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "https://images.unsplash.com/photo-1595954421407-ad5e012b25e5?q=80&w=1933&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "https://images.unsplash.com/photo-1464790719320-516ecd75af6c?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     ],
-    "name": "Buenos Aires",
-    "date": "15/08/2008"
+    "description": "Explorar Buenos Aires é embarcar em uma jornada fascinante pela rica cultura argentina. O bairro de San Telmo cativa com suas ruas de paralelepípedos e o tango que ressoa nas esquinas. La Boca encanta com o vibrante Caminito e a paixão pelo futebol ao redor do estádio La Bombonera. A imponente Avenida 9 de Julio, com o Obelisco, destaca a grandiosidade da cidade, enquanto Recoleta impressiona com sua elegância e o célebre cemitério. Palermo Soho exibe a modernidade em meio à arquitetura europeia, oferecendo boutiques e restaurantes sofisticados. Em Buenos Aires, a cada esquina, descobre-se uma mistura envolvente de cores, sabores e emoções latinas."
   },
   {
     "id": 5,
-    "cardImg": "../images/madrid.jpg",
-    "slides": [
-      "../images/buenos-aires.jpg",
-      "../images/madrid.jpg",
-      "../images/lisboa.jpg"
-    ],
     "name": "Madrid",
-    "date": "05/02/2017"
+    "date": "05/02/2017",
+    "cardImg": "https://images.unsplash.com/photo-1604791648993-2c4e866efb5b?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "slides": [
+      "https://images.unsplash.com/photo-1604791648993-2c4e866efb5b?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "https://images.unsplash.com/photo-1550913052-56eb528b8e7c?q=80&w=2088&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "https://images.unsplash.com/photo-1584200463394-bba4b2117e4d?q=80&w=2107&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "https://images.unsplash.com/photo-1580316205823-da182af14ab3?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "https://images.unsplash.com/photo-1561009897-d9e7771a67f0?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    ],
+    "description": "Explorar Madrid é imergir em um passeio envolvente pela rica herança cultural espanhola. No coração da cidade, a animada Puerta del Sol é um ponto de partida, pulsando com vida e rodeada por marcos históricos. O Palácio Real, com sua majestosa arquitetura, oferece uma visão imponente da monarquia espanhola. Os bulevares arborizados do Paseo del Prado levam a museus renomados, como o Museu do Prado, um tesouro artístico que cativa os amantes da arte. O bairro de La Latina atrai com suas ruelas pitorescas e bares de tapas animados, enquanto o Parque do Retiro proporciona um oásis tranquilo no coração da metrópole. A arquitetura vanguardista de lugares como a Puerta de Europa e o distrito de Gran Vía reflete a modernidade da cidade. Em Madrid, cada passo revela a riqueza histórica e a vitalidade contemporânea, proporcionando uma experiência turística memorável."
   },
   {
     "id": 6,
-    "cardImg": "../images/lisboa.jpg",
+    "name": "Rio de Janeiro",
+    "date": "10/06/2022",
+    "cardImg": "https://images.unsplash.com/photo-1548963670-aaaa8f73a5e3?q=80&w=1925&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "slides": [
-      "../images/buenos-aires.jpg",
-      "../images/madrid.jpg",
-      "../images/lisboa.jpg"
+      "https://images.unsplash.com/photo-1548963670-aaaa8f73a5e3?q=80&w=1925&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "https://images.unsplash.com/photo-1516306580123-e6e52b1b7b5f?q=80&w=2126&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "https://images.unsplash.com/photo-1483729558449-99ef09a8c325?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "https://images.unsplash.com/photo-1561577553-674ce32847a4?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "https://images.unsplash.com/photo-1589394760151-b4c9890765fe?q=80&w=2048&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "https://images.unsplash.com/photo-1626568941852-70bc179e493e?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     ],
-    "name": "Lisboa",
-    "date": "10/06/2022"
+    "description": "Explorar Lisboa é embarcar em uma jornada encantadora pela capital portuguesa, onde a tradição se entrelaça harmoniosamente com a modernidade. O bairro histórico de Alfama, com suas ruelas estreitas e casas coloridas, revela a autenticidade da cidade, enquanto o Castelo de São Jorge oferece vistas deslumbrantes do Tejo e da cidade. O icônico elétrico 28 serpenteia pelas colinas, proporcionando uma viagem pitoresca por alguns dos locais mais emblemáticos, como a Sé de Lisboa e o Miradouro da Graça. A atmosfera boêmia de Bairro Alto convida os visitantes a explorar seus animados bares e casas de fado, proporcionando uma experiência autêntica da cultura portuguesa. À beira-rio, Belém encanta com sua arquitetura histórica, destacando o Mosteiro dos Jerónimos e a Torre de Belém. A modernidade de Parque das Nações, construído para a Expo 98, contrasta com a tradição, oferecendo uma visão contemporânea da cidade. Lisboa é um convite irresistível para desvendar a história, a cultura e a beleza cativante de Portugal."
   }
 ]
