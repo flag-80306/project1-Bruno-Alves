@@ -4,7 +4,7 @@
   padding: 12px 96px;
   position: fixed;
   width: 100%;
-  z-index: 1;
+  z-index: 2;
   top: 0;
 }
 
@@ -42,6 +42,7 @@ li > a:hover {
   background-color: #3b465c;
   position: fixed;
   top: 0;
+  z-index: 1;
 }
 
 .spacer {
