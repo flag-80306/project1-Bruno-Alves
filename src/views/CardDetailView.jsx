@@ -1,5 +1,6 @@
 import Carousel from "../components/Carousel";
 import { useState, useEffect } from "react";
+import HomeViewCards from "../components/HomeViewCards";
 
 function CardDetailView({ id }) {
   console.log("Console.log id!");
@@ -32,6 +33,7 @@ function CardDetailView({ id }) {
       <p>{city.name}</p>
       <p>{city.date}</p>
       <Carousel city={city} />
+      <HomeViewCards />
     </>
   );
 }
