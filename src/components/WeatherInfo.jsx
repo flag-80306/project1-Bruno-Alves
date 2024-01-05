@@ -21,6 +21,7 @@ function WeatherInfo({ lat, lon }) {
     <>
       <div>WeatherInfo</div>
       <div>{weather.name}</div>
+      <div>{weather.main.temp}°C</div>
       {/* <div className='weatherContainer'>
     			<div className='weatherCard'>
     				{weather.}

@@ -2,8 +2,8 @@
   {
     "id": 1,
     "name": "Buenos Aires",
-    "lat": -34.61315,
-    "lon": -58.37723,
+    "lat": -34.6142,
+    "lon": -58.3811,
     "date": "15/08/2008",
     "cardImg": "https://images.unsplash.com/photo-1694560446249-240043f487bc?q=80&w=1986&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "slides": [
@@ -18,8 +18,8 @@
   {
     "id": 2,
     "name": "Madrid",
-    "lat": 40.416775,
-    "lon": -3.70379,
+    "lat": 40.398033,
+    "lon": -3.710935,
     "date": "05/02/2017",
     "cardImg": "https://images.unsplash.com/photo-1539037116277-4db20889f2d4?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "slides": [
@@ -33,8 +33,8 @@
     "id": 3,
     "cardImg": "../images/lisboa.jpg",
     "name": "Lisboa",
-    "lat": 0,
-    "lon": 0,
+    "lat": 38.72044424585432,
+    "lon": -9.168080563826793,
     "date": "10/06/2022",
     "slides": [
       "../images/lisboa.jpg",
@@ -60,9 +60,9 @@
   },
   {
     "id": 5,
-    "name": "Madrid",
-    "lat": 40.398033,
-    "lon": -3.710935,
+    "name": "Genebra",
+    "lat": 46.204391,
+    "lon": 6.143158,
     "date": "05/02/2017",
     "cardImg": "https://images.unsplash.com/photo-1604791648993-2c4e866efb5b?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "slides": [
