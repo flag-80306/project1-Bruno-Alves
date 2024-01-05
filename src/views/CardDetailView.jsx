@@ -1,6 +1,7 @@
 import Carousel from "../components/Carousel";
 import { useState, useEffect } from "react";
 import HomeViewCards from "../components/HomeViewCards";
+import WeatherInfo from "../components/WeatherInfo";
 
 function CardDetailView({ id }) {
   console.log("Console.log id!");
@@ -36,6 +37,7 @@ function CardDetailView({ id }) {
       <Carousel city={city} />
       <p>{city.description}</p>
       <HomeViewCards />
+      <WeatherInfo lat={city.lat} lon={city.lon} />
     </>
   );
 }
