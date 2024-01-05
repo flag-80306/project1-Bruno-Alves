@@ -37,6 +37,8 @@ function CardDetailView({ id }) {
       <Carousel city={city} />
       <p>{city.description}</p>
       <HomeViewCards />
+
+      {/* Usar conditional rendering para as props lat e lon nao serem undefined */}
       <WeatherInfo lat={city.lat} lon={city.lon} />
     </>
   );
