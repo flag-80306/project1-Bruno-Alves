@@ -11,7 +11,6 @@ function HomeViewCards() {
       const response = await fetch(url);
       const result = await response.json();
 
-      console.log(result);
       setData(result);
     })();
   }, []);
@@ -19,8 +18,8 @@ function HomeViewCards() {
   return (
     <div className="cardsSection">
       {data.map((city) => (
-        <Link href={"/tripdetail/" + city.id}>
-          <div className="card" key={city.id}>
+        <Link href={"/tripdetail/" + city.id} key={city.id}>
+          <div className="card">
             <img src={city.cardImg} alt={`Image for ${city.city}`} />
             <p>
               <span>{city.name}</span>

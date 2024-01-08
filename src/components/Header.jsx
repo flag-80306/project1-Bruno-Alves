@@ -1,23 +1,28 @@
+import { useState } from "react";
 import { Link } from "wouter";
 
 function Header() {
+  const [menuOpen, setMenuOpen] = useState(false);
+
   return (
     <>
-      <div className="header">
+      <div className={`header ${menuOpen ? "open" : ""}`}>
         <Link href="/">The Travel Blog</Link>
-        {/* <a href="#">The Travel Blog</a> */}
-        <ul>
+        <div className="menuIcon" onClick={() => setMenuOpen(!menuOpen)}>
+          ☰
+        </div>
+        <div className="closeMenuIcon" onClick={() => setMenuOpen(!menuOpen)}>
+          ⛝
+        </div>
+        <ul className={`menuNav ${menuOpen ? "open" : ""}`}>
           <li>
             <Link href="/">Home</Link>
-            {/* <a href="#">Home</a> */}
           </li>
           <li>
             <Link href="/newlocation">Add Location</Link>
-            {/* <a href="#">Add Location</a> */}
           </li>
           <li>
             <Link href="/aboutme">About Me</Link>
-            {/* <a href="#">The Traveler</a> */}
           </li>
         </ul>
       </div>
