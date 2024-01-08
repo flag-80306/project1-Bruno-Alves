@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 
-function WeatherInfo({ lat = 0, lon = 0 }) {
+function WeatherInfo({ lat, lon, name }) {
   const [weather, setWeather] = useState([]);
 
   useEffect(() => {
@@ -20,8 +20,8 @@ function WeatherInfo({ lat = 0, lon = 0 }) {
   return (
     <>
       <div>WeatherInfo</div>
-      <div>{weather.name}</div>
-      {/* <div>{weather.main.temp}°C</div> */}
+      <div>{name}</div>
+      <div>{weather.main?.temp}°C</div>
       {/* <div className='weatherContainer'>
     			<div className='weatherCard'>
     				{weather.}

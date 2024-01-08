@@ -39,7 +39,7 @@ function CardDetailView({ id }) {
       <HomeViewCards />
 
       {/* Usar conditional rendering para as props lat e lon nao serem undefined */}
-      <WeatherInfo lat={city.lat} lon={city.lon} />
+      <WeatherInfo lat={city.lat} lon={city.lon} name={city.name} />
     </>
   );
 }
