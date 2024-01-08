@@ -4,3 +4,9 @@
   flex-direction: column;
   justify-content: center;
 }
+
+.cityInfo {
+  display: flex;
+  padding: 96px;
+  gap: 10px;
+}

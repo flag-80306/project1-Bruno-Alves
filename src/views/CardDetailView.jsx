@@ -35,11 +35,12 @@ function CardDetailView({ id }) {
         <p>{city.date}</p>
       </div>
       <Carousel city={city} />
-      <p>{city.description}</p>
+      <div className="cityInfo">
+        <p>{city.description}</p>
+        {/* Usar conditional rendering para as props lat e lon nao serem undefined */}
+        <WeatherInfo lat={city.lat} lon={city.lon} name={city.name} />
+      </div>
       <HomeViewCards />
-
-      {/* Usar conditional rendering para as props lat e lon nao serem undefined */}
-      <WeatherInfo lat={city.lat} lon={city.lon} name={city.name} />
     </>
   );
 }

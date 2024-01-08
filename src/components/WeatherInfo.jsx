@@ -19,9 +19,11 @@ function WeatherInfo({ lat, lon, name }) {
 
   return (
     <>
-      <div>WeatherInfo</div>
-      <div>{name}</div>
-      <div>{weather.main?.temp}°C</div>
+      <div className="weatherContainer">
+        <div>Current Weather</div>
+        <div>{name}</div>
+        <div>{weather.main?.temp}°C</div>
+      </div>
       {/* <div className='weatherContainer'>
     			<div className='weatherCard'>
     				{weather.}
