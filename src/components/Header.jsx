@@ -1,11 +1,26 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { Link } from "wouter";
 
 function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
+  const [showHeaderBackground, setShowHeaderBackground] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const shouldShowBackground = window.scrollY > 0;
+      setShowHeaderBackground(shouldShowBackground);
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
 
   return (
     <>
+      {showHeaderBackground && <div className="headerBackground"></div>}
       <div className={`header ${menuOpen ? "open" : ""}`}>
         <Link href="/">The Travel Blog</Link>
         <div className="menuIcon" onClick={() => setMenuOpen(true)}>

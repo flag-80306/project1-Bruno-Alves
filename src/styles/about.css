@@ -23,6 +23,10 @@
   flex: 1 2 50%;
 }
 
+.travelerDescription > h1 {
+  margin: 0;
+}
+
 @media screen and (max-width: 768px) {
   .travelerContainer {
     padding: 0 48px;
