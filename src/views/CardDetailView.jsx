@@ -21,6 +21,12 @@ function CardDetailView({ id }) {
       });
       console.log("Console.log foundElement!");
       console.log(foundElement);
+
+      if (!foundElement) {
+        window.location.href = "/pagenotfound";
+        return;
+      }
+
       setCity(foundElement);
     })();
   }, [id]);
