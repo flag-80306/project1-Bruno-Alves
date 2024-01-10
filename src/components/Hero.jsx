@@ -2,7 +2,7 @@ function Hero() {
   return (
     <>
       <div className="heroImage">
-        <div className="heroGradient">
+        <div className="heroMask">
           <div className="heroDetail">
             <h1>Project 1</h1>
             <h1>The Travel Blog</h1>

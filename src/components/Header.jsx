@@ -8,10 +8,11 @@ function Header() {
     <>
       <div className={`header ${menuOpen ? "open" : ""}`}>
         <Link href="/">The Travel Blog</Link>
-        <div className="menuIcon" onClick={() => setMenuOpen(!menuOpen)}>
+        <div className="menuIcon" onClick={() => setMenuOpen(true)}>
           ☰
         </div>
-        <div className="closeMenuIcon" onClick={() => setMenuOpen(!menuOpen)}>
+        <div className="menuMask" onClick={() => setMenuOpen(false)}></div>
+        <div className="closeMenuIcon" onClick={() => setMenuOpen(false)}>
           ⛝
         </div>
         <ul className={`menuNav ${menuOpen ? "open" : ""}`}>

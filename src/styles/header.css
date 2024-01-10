@@ -21,6 +21,10 @@
   color: #f8ebee;
 }
 
+.menuMask {
+  display: none;
+}
+
 .closeMenuIcon {
   display: none;
 }
@@ -109,6 +113,17 @@ li > a:hover {
     right: 30vw;
     z-index: 1; */
     display: none;
+  }
+
+  .header.open .menuMask {
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100vh;
+    width: 60%;
+    background-color: rgba(0, 0, 0, 0.5);
+    cursor: pointer;
   }
 
   .header.open .closeMenuIcon {
