@@ -1,13 +1,36 @@
 .travelerContainer {
   display: flex;
+  justify-content: center;
   flex-wrap: wrap;
+  gap: 64px;
+  padding: 0 96px;
 }
 
 .travelerPhoto {
   display: flex;
   flex-direction: column;
+  flex: 1 2 1;
+}
+
+.travelerPhoto > img {
+  border-radius: 24px;
+
+  max-height: 480px;
 }
 
 .travelerDescription {
   max-width: 600px;
+  flex: 1 2 50%;
+}
+
+@media screen and (max-width: 768px) {
+  .travelerContainer {
+    padding: 0 48px;
+  }
+}
+
+@media screen and (max-width: 590px) {
+  .travelerDescription > h1 {
+    font-size: 24px;
+  }
 }

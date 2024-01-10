@@ -10,3 +10,7 @@
   padding: 96px;
   gap: 10px;
 }
+
+.weatherContainer {
+  width: 500px;
+}

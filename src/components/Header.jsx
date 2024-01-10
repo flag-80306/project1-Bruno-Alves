@@ -17,13 +17,19 @@ function Header() {
         </div>
         <ul className={`menuNav ${menuOpen ? "open" : ""}`}>
           <li>
-            <Link href="/">Home</Link>
+            <Link href="/" onClick={() => setMenuOpen(false)}>
+              Home
+            </Link>
           </li>
           <li>
-            <Link href="/newlocation">Add Location</Link>
+            <Link href="/newlocation" onClick={() => setMenuOpen(false)}>
+              Add Location
+            </Link>
           </li>
           <li>
-            <Link href="/aboutme">About Me</Link>
+            <Link href="/aboutme" onClick={() => setMenuOpen(false)}>
+              About Me
+            </Link>
           </li>
         </ul>
       </div>

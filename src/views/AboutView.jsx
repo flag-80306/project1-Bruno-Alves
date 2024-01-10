@@ -6,37 +6,39 @@ function AboutView() {
       <div className="travelerContainer">
         <div className="travelerPhoto">
           <img
-            src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/User_icon_2.svg/480px-User_icon_2.svg.png"
+            src="https://plus.unsplash.com/premium_photo-1664303725372-8da2ce6d98e7?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
             alt="Traveler Photo"
           />
-          <span>Bruno Alves Aragao</span>
-          <span>30 anos</span>
-          <span>Carioca</span>
         </div>
         <div className="travelerDescription">
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem
-          incidunt quidem tempora aperiam facilis omnis sequi explicabo rem
-          doloribus deleniti optio assumenda pariatur a veniam magni et,
-          consectetur excepturi sunt. Lorem ipsum dolor sit amet, consectetur
-          adipisicing elit. Veniam minus optio tempora, voluptas ipsum
-          necessitatibus ut repellendus corrupti ullam magnam reprehenderit
-          dignissimos nam! Eaque laborum corrupti aut aperiam placeat dolor.
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquam
-          necessitatibus itaque soluta, ipsa nostrum esse facere a, ducimus
-          incidunt omnis dolor placeat tempore nulla quis laboriosam earum?
-          Veniam, id porro. Lorem, ipsum dolor sit amet consectetur adipisicing
-          elit. Ipsa tenetur debitis ut et quod asperiores perferendis ipsum
-          saepe porro, numquam ad alias repellat ea accusamus nobis eos vero,
-          odit nihil.
+          <h1>Welcome to my universe of discoveries and wonders!</h1>
+          <p>
+            I'm Bruno,
+            <br />
+            <br />
+            the adventurer behind this travel blog, eager to share the
+            fascinating stories that each destination has to offer.
+          </p>
+          <br />
+
+          <p>
+            Facing challenges during my adventures is an integral part of my
+            journey. I believe it's in these moments that we find the most
+            authentic and valuable stories. Every linguistic barrier overcome
+            and every logistical obstacle faced are opportunities for growth and
+            learning.
+          </p>
+          <br />
+
+          <p>
+            The message I aim to convey to readers of this blog is simple yet
+            powerful: travel goes beyond the places we visit. It's about the
+            connections we make, the experiences that transform us, and the
+            valuable lessons that each destination offers. Join me on this
+            exciting journey of discovery, where adventure is always on the
+            horizon, and the world awaits to be explored.
+          </p>
         </div>
-        <h2>This is the About View</h2>
-        <h2>This is the About View</h2>
-        <h2>This is the About View</h2>
-        <h2>This is the About View</h2>
-        <h2>This is the About View</h2>
-        <h2>This is the About View</h2>
-        <h2>This is the About View</h2>
-        <h2>This is the About View</h2>
       </div>
       <h2>This is the About View</h2>
       <h2>This is the About View</h2>
