@@ -2,8 +2,6 @@ import { useState } from "react";
 import { BsArrowLeftCircleFill, BsArrowRightCircleFill } from "react-icons/bs";
 
 function Carousel({ city }) {
-  console.log("Console.log city!!!");
-  console.log(city);
   const [slide, setSlide] = useState(0);
 
   function nextSlide() {

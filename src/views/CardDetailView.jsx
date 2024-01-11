@@ -1,12 +1,10 @@
 import Carousel from "../components/Carousel";
 import { useState, useEffect } from "react";
 import HomeViewCards from "../components/HomeViewCards";
-import WeatherInfo from "../components/WeatherInfo";
+import CurrentWeatherInfo from "../components/CurrentWeatherInfo";
+import WeatherForecast from "../components/WeatherForecast";
 
 function CardDetailView({ id }) {
-  console.log("Console.log id!");
-  console.log(id);
-
   const [city, setCity] = useState({});
 
   useEffect(() => {
@@ -19,8 +17,6 @@ function CardDetailView({ id }) {
       const foundElement = result.find((elem) => {
         return elem.id == id;
       });
-      console.log("Console.log foundElement!");
-      console.log(foundElement);
 
       if (!foundElement) {
         window.location.href = "/pagenotfound";
@@ -44,8 +40,13 @@ function CardDetailView({ id }) {
       <div className="cityInfo">
         <p>{city.description}</p>
         {/* Usar conditional rendering para as props lat e lon nao serem undefined */}
-        <WeatherInfo lat={city.lat} lon={city.lon} name={city.name} />
+        <CurrentWeatherInfo
+          lat={city ? city.lat : 0}
+          lon={city ? city.lon : 0}
+          name={city ? city.name : ""}
+        />
       </div>
+      <WeatherForecast lat={city ? city.lat : 0} lon={city ? city.lon : 0} />
       <HomeViewCards />
     </>
   );

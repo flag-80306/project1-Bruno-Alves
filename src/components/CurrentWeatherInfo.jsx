@@ -1,19 +1,16 @@
 import { useEffect, useState } from "react";
 
-function WeatherInfo({ lat, lon, name }) {
-  const [weather, setWeather] = useState([]);
+function CurrentWeatherInfo({ lat, lon, name }) {
+  const [currentWeather, setCurrentWeather] = useState([]);
 
   useEffect(() => {
     (async function () {
       const url = `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&appid=dfa650f1b164ba810c4c88c1a7899e6f&units=metric`;
+
       const response = await fetch(url);
       const result = await response.json();
 
-      console.log("Console.log url");
-      console.log(url);
-      console.log("Console.log weather!!!");
-      console.log(result);
-      setWeather(result);
+      setCurrentWeather(result);
     })();
   }, [lat]);
 
@@ -22,7 +19,7 @@ function WeatherInfo({ lat, lon, name }) {
       <div className="weatherContainer">
         <div>Current Weather</div>
         <div>{name}</div>
-        <div>{weather.main?.temp}°C</div>
+        <div>{currentWeather.main?.temp}°C</div>
       </div>
       {/* <div className='weatherContainer'>
     			<div className='weatherCard'>
@@ -33,4 +30,4 @@ function WeatherInfo({ lat, lon, name }) {
   );
 }
 
-export default WeatherInfo;
+export default CurrentWeatherInfo;
