@@ -25,8 +25,17 @@ function AddLocationView() {
   return (
     <>
       <div className="headerBackground"></div>
+      <div className="spacer"></div>
 
       <form onSubmit={handleSubmit}>
+        <div className="formDescription">
+          <h2>Do you have a suggestion for us?</h2>
+          <h4>
+            Submit your travel ideas and you might find them featured in a
+            future post.
+          </h4>
+        </div>
+
         <label>
           City:
           <input
@@ -78,7 +87,7 @@ function AddLocationView() {
           <label>
             <textarea
               name="description"
-              cols="50"
+              cols="40"
               rows="10"
               value={formInfo.description}
               onChange={handleChange}

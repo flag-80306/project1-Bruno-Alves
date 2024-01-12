@@ -4,7 +4,7 @@
   padding: 12px 96px;
   position: fixed;
   width: 100%;
-  z-index: 1;
+  z-index: 2;
   top: 0;
 }
 
@@ -14,7 +14,22 @@
   font-size: 20px;
 }
 
-.header > ul {
+.menuIcon {
+  display: none;
+  cursor: pointer;
+  font-size: 24px;
+  color: #f8ebee;
+}
+
+.menuMask {
+  display: none;
+}
+
+.closeMenuIcon {
+  display: none;
+}
+
+.menuNav {
   display: flex;
   justify-content: space-evenly;
   gap: 20px;
@@ -34,4 +49,81 @@ li > a:hover {
   background-color: #f8ebee;
   color: black;
   border-radius: 8px;
+}
+
+.headerBackground {
+  height: 50px;
+  width: 100%;
+  background-color: #3b465c;
+  position: fixed;
+  top: 0;
+  z-index: 1;
+}
+
+.spacer {
+  margin-top: 80px;
+}
+
+@media screen and (max-width: 768px) {
+  .header {
+    display: flex;
+    justify-content: space-between;
+    padding: 12px 48px;
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+    top: 0;
+  }
+}
+
+@media screen and (max-width: 590px) {
+  .menuNav {
+    display: none;
+  }
+
+  .header.open .menuNav {
+    display: flex;
+    flex-direction: column;
+    background-color: #3b465c;
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    width: 40%;
+    padding: 64px 16px;
+    gap: 20px;
+    justify-content: flex-start;
+  }
+
+  .menuIcon {
+    display: block; /* Mostra o ícone por padrão */
+  }
+
+  .header.open .menuIcon {
+    /* position: absolute;
+    right: 30vw;
+    z-index: 1; */
+    display: none;
+  }
+
+  .header.open .menuMask {
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100vh;
+    width: 60%;
+    background-color: rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+  }
+
+  .header.open .closeMenuIcon {
+    display: block;
+    position: absolute;
+    right: 48px;
+    z-index: 1;
+    cursor: pointer;
+    font-size: 24px;
+    color: #f8ebee;
+  }
 }

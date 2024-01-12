@@ -1,17 +1,30 @@
 import { Link } from "wouter";
-import cardsInfo from "../assets/trips/cardsInfo";
+import { useEffect, useState } from "react";
+
 function HomeViewCards() {
-  // console.log(cardsInfo[2].imgURL);
+  const [data, setData] = useState([]);
+
+  useEffect(() => {
+    (async function () {
+      const url = "/mockAPI/data.json";
+
+      const response = await fetch(url);
+      const result = await response.json();
+
+      setData(result);
+    })();
+  }, []);
+
   return (
     <div className="cardsSection">
-      {cardsInfo.map((trip, index) => (
-        <Link href={"tripdetail/" + trip.city}>
-          <div className="card" key={index}>
-            <img src={trip.imgURL} alt={`Image for ${trip.city}`} />
+      {data.map((city) => (
+        <Link href={"/tripdetail/" + city.id} key={city.id}>
+          <div className="card">
+            <img src={city.cardImg} alt={`Image for ${city.city}`} />
             <p>
-              <span>{trip.city}</span>
+              <span>{city.name}</span>
               <br />
-              {trip.date}
+              {city.date}
             </p>
           </div>
         </Link>
