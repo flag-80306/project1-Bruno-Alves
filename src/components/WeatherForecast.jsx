@@ -8,7 +8,9 @@ function WeatherForecast({ lat, lon }) {
       if (!lat || !lon) {
         return;
       }
-      const url = `https://api.openweathermap.org/data/2.5/forecast?lat=${lat}&lon=${lon}&appid=dfa650f1b164ba810c4c88c1a7899e6f`;
+      const url = `https://api.openweathermap.org/data/2.5/forecast?lat=${lat}&lon=${lon}&appid=${
+        import.meta.env.VITE_WEATHER_MAP_API_KEY
+      }&units=metric`;
 
       const response = await fetch(url);
       const result = await response.json();
