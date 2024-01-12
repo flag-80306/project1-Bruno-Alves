@@ -5,6 +5,9 @@ function CurrentWeatherInfo({ lat, lon, name }) {
 
   useEffect(() => {
     (async function () {
+      if (!lat || !lon) {
+        return;
+      }
       const url = `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&appid=dfa650f1b164ba810c4c88c1a7899e6f&units=metric`;
 
       const response = await fetch(url);
