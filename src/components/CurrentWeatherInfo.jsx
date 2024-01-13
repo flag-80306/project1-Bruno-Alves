@@ -24,6 +24,17 @@ function CurrentWeatherInfo({ lat, lon, name }) {
       <div className="weatherContainer">
         <div>Current Weather</div>
         <div>{name}</div>
+        <div className="weatherIcon">
+          <img
+            src={
+              "https://openweathermap.org/img/wn/" +
+              currentWeather.weather?.[0].icon +
+              ".png"
+            }
+            alt={"weather-icon-" + currentWeather.weather?.[0].main}
+          />
+        </div>
+
         <div>{currentWeather.main?.temp}°C</div>
       </div>
       {/* <div className='weatherContainer'>
