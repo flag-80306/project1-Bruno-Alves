@@ -22,13 +22,15 @@ function Header() {
     <>
       {showHeaderBackground && <div className="headerBackground"></div>}
       <div className={`header ${menuOpen ? "open" : ""}`}>
-        <Link href="/">The Travel Blog</Link>
+        <Link href="/">
+          Voyage Vibes <img src="images/blog-icon.svg" alt="" />
+        </Link>
         <div className="menuIcon" onClick={() => setMenuOpen(true)}>
           ☰
         </div>
         <div className="menuMask" onClick={() => setMenuOpen(false)}></div>
         <div className="closeMenuIcon" onClick={() => setMenuOpen(false)}>
-          ⛝
+          ☒
         </div>
         <ul className={`menuNav ${menuOpen ? "open" : ""}`}>
           <li>

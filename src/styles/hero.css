@@ -27,16 +27,24 @@
 .heroDetail > h1 {
   margin: 0;
   padding: 0;
-  font-size: 64px;
+  font-size: 60px;
+  font-weight: 400;
+}
+
+.heroDetail > h2 {
+  margin: 0;
+  padding: 0;
+  font-size: 36px;
   font-weight: 400;
 }
 
 @media screen and (max-width: 768px) {
   .heroDetail > h1 {
-    margin: 0;
-    padding: 0;
-    font-size: 48px;
-    font-weight: 400;
+    font-size: 40px;
+  }
+
+  .heroDetail > h2 {
+    font-size: 24px;
   }
 
   .heroDetail {
