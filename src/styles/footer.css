@@ -10,7 +10,8 @@
 }
 
 .footer > p {
-  margin: 12px;
+  margin: 12px 48px;
+  text-align: center;
 }
 
 .footerIcons {

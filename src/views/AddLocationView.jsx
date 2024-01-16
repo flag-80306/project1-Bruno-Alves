@@ -27,81 +27,81 @@ function AddLocationView() {
       <div className="headerBackground"></div>
       <div className="spacer"></div>
 
-      <form onSubmit={handleSubmit}>
-        <div className="formDescription">
-          <h2>Do you have a suggestion for us?</h2>
-          <h4>
-            Submit your travel ideas and you might find them featured in a
-            future post.
-          </h4>
-        </div>
-
-        <label>
-          City:
-          <input
-            type="text"
-            name="city"
-            value={formInfo.city}
-            placeholder="city"
-            onChange={handleChange}
-            required
-          />
-        </label>
-
-        <label>
-          Country:
-          <input
-            type="text"
-            name="country"
-            value={formInfo.country}
-            placeholder="country"
-            onChange={handleChange}
-            required
-          />
-        </label>
-
-        <label>
-          from:
-          <input
-            type="date"
-            name="dateFrom"
-            value={formInfo.dateFrom}
-            placeholder="date"
-            onChange={handleChange}
-          />
-        </label>
-
-        <label>
-          to:
-          <input
-            type="date"
-            name="dateTo"
-            value={formInfo.dateTo}
-            placeholder="date"
-            onChange={handleChange}
-          />
-        </label>
-
-        <fieldset>
-          <legend>Descripition/Places to visit</legend>
+      <div className="formDescription">
+        <h2>Do you have a suggestion for us?</h2>
+        <br />
+        <h4>
+          Submit your travel ideas and you might find them featured in a future
+          post.
+        </h4>
+      </div>
+      <div className="formContainer">
+        <form onSubmit={handleSubmit}>
           <label>
-            <textarea
-              name="description"
-              cols="40"
-              rows="10"
-              value={formInfo.description}
+            City:
+            <input
+              type="text"
+              name="city"
+              value={formInfo.city}
+              placeholder="city"
               onChange={handleChange}
-            ></textarea>
+              required
+            />
           </label>
-          <br />
-          <br />
-          <input type="submit" value="Submit" />
-        </fieldset>
 
-        {/* <p>
-          {formData.city} {" - " + formData.country}
-        </p> */}
-      </form>
+          <label>
+            Country:
+            <input
+              type="text"
+              name="country"
+              value={formInfo.country}
+              placeholder="country"
+              onChange={handleChange}
+              required
+            />
+          </label>
+
+          <span>
+            <label>
+              from:
+              <input
+                type="date"
+                name="dateFrom"
+                value={formInfo.dateFrom}
+                placeholder="date"
+                onChange={handleChange}
+              />
+            </label>
+
+            <label>
+              to:
+              <input
+                type="date"
+                name="dateTo"
+                value={formInfo.dateTo}
+                placeholder="date"
+                onChange={handleChange}
+              />
+            </label>
+          </span>
+
+          <fieldset>
+            <legend>Descripition/Places to visit</legend>
+            <label>
+              <textarea
+                name="description"
+                cols="40"
+                rows="10"
+                value={formInfo.description}
+                onChange={handleChange}
+              ></textarea>
+            </label>
+            <br />
+            <br />
+            <input type="submit" value="Submit" />
+          </fieldset>
+        </form>
+      </div>
     </>
   );
 }

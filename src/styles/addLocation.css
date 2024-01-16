@@ -1,9 +1,18 @@
+.formContainer {
+  border-radius: 15px;
+  box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.25);
+  max-width: 400px;
+  max-height: 400px;
+  margin: 0 auto 203px;
+  padding: 16px;
+  text-align: center;
+}
+
 form {
-  align-items: center;
+  align-items: flex-start;
   display: flex;
   flex-direction: column;
   gap: 15px;
-  margin: 0px 96px 409px;
   color: #3b465c;
 }
 
@@ -15,7 +24,7 @@ form > fieldset {
   background-color: #3b465c;
   color: #f8ebee;
   display: inline-block;
-  margin: 0;
+  margin: 0 96px 0 96px;
   border-radius: 8px;
   box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.25);
   padding: 8px;
@@ -24,7 +33,7 @@ form > fieldset {
 .formDescription > h4 {
   color: #3b465c;
   display: inline-block;
-
+  margin: 24px 96px;
   border-radius: 8px;
   box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.25);
   padding: 8px;
@@ -35,7 +44,10 @@ label > input {
 }
 
 @media screen and (max-width: 768px) {
-  form {
-    margin: 0px 48px 409px;
+  .formDescription > h2 {
+    margin: 0 48px 0 48px;
+  }
+  .formDescription > h4 {
+    margin-left: 48px;
   }
 }

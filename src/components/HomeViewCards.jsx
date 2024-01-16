@@ -24,7 +24,7 @@ function HomeViewCards() {
             <p>
               <span>{city.name}</span>
               <br />
-              {city.date}
+              {city.from} - {city.to}
             </p>
           </div>
         </Link>
