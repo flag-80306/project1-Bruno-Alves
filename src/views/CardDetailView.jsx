@@ -40,7 +40,7 @@ function CardDetailView({ id }) {
       <div className="cityInfo">
         <p>{city.description}</p>
         {/* Usar conditional rendering para evitar erro quando as props lat e lon sao undefined */}
-        <CurrentWeatherInfo lat={city.lat} lon={city.lon} name={city.name} />
+        <CurrentWeatherInfo lat={city.lat} lon={city.lon} />
       </div>
       <WeatherForecast lat={city ? city.lat : 0} lon={city ? city.lon : 0} />
       <HomeViewCards />

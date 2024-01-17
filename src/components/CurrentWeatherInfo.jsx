@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 
-function CurrentWeatherInfo({ lat, lon, name }) {
+function CurrentWeatherInfo({ lat, lon }) {
   const [currentWeather, setCurrentWeather] = useState([]);
 
   useEffect(() => {
@@ -23,8 +23,7 @@ function CurrentWeatherInfo({ lat, lon, name }) {
     <>
       <div className="weatherContainer">
         <div>Current Weather</div>
-        <div>{name}</div>
-        <div className="weatherIcon">
+        <div className="weatherInfo">
           <img
             src={
               "https://openweathermap.org/img/wn/" +
@@ -33,9 +32,14 @@ function CurrentWeatherInfo({ lat, lon, name }) {
             }
             alt={"weather-icon-" + currentWeather.weather?.[0].main}
           />
+          <div className="weatherDescription">
+            {currentWeather.weather?.[0].description}
+          </div>
         </div>
-
-        <div>{currentWeather.main?.temp}°C</div>
+        <div className="currentTemp">{currentWeather.main?.temp}°C</div>
+        <div className="feelsLike">
+          Real feel {currentWeather.main?.feels_like}°C
+        </div>
       </div>
       {/* <div className='weatherContainer'>
     			<div className='weatherCard'>

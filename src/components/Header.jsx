@@ -23,7 +23,7 @@ function Header() {
       {showHeaderBackground && <div className="headerBackground"></div>}
       <div className={`header ${menuOpen ? "open" : ""}`}>
         <Link href="/">
-          Voyage Vibes <img src="images/blog-icon.svg" alt="" />
+          Voyage Vibes <img src="images/blog-icon.svg" alt="Blog Icon" />
         </Link>
         <div className="menuIcon" onClick={() => setMenuOpen(true)}>
           ☰
