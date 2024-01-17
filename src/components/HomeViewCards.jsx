@@ -1,7 +1,7 @@
 import { Link } from "wouter";
 import { useEffect, useState } from "react";
 
-function HomeViewCards() {
+function Cards() {
   const [data, setData] = useState([]);
 
   useEffect(() => {
@@ -33,4 +33,4 @@ function HomeViewCards() {
   );
 }
 
-export default HomeViewCards;
+export default Cards;
