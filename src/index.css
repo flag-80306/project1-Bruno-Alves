@@ -8,6 +8,7 @@
 @import url(styles/carousel.css);
 @import url(styles/cityDetail.css);
 @import url(styles/weather.css);
+@import url(styles/pageNotFound.css);
 
 * {
   box-sizing: border-box;
