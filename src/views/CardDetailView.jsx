@@ -32,9 +32,9 @@ function CardDetailView({ id }) {
       <div className="headerBackground"></div>
       <div className="spacer"></div>
       <div className="cityDetailContainer">
-        <h2>Trip to {city.name}</h2>
-        <p>{city.id}</p>
-        <p>{city.date}</p>
+        <h2>{city.name}</h2>
+        {/* <p>{city.id}</p>
+        <p>{city.date}</p> */}
       </div>
       <Carousel city={city} />
       <div className="cityInfo">

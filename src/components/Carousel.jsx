@@ -14,7 +14,7 @@ function Carousel({ city }) {
 
   return (
     <>
-      <h3>Details from {city.name}</h3>
+      {/* <h3>Details from {city.name}</h3> */}
 
       <div className="carousel">
         <BsArrowLeftCircleFill

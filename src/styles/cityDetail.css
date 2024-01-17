@@ -7,6 +7,26 @@
 
 .cityInfo {
   display: flex;
-  padding: 96px;
-  gap: 10px;
+  margin: 64px 96px;
+  gap: 64px;
+  flex-wrap: wrap-reverse;
+  justify-content: center;
+  align-items: center;
+}
+
+.cityInfo > p {
+  max-width: 800px;
+}
+
+@media screen and (max-width: 768px) {
+  .cityInfo {
+    margin: 64px 48px;
+  }
+}
+
+@media screen and (max-width: 590px) {
+  .carousel {
+    max-width: 310px;
+    height: 250px;
+  }
 }
