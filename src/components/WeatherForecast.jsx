@@ -32,6 +32,7 @@ function WeatherForecast({ lat, lon }) {
 
   return (
     <>
+      <p id="fiveDayForecast">Forecast for the next 5 days</p>
       {/* <div>
         {forecast?.map((item) => (
           <>
