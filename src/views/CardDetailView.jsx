@@ -1,6 +1,6 @@
 import Carousel from "../components/Carousel";
 import { useState, useEffect } from "react";
-import Cards from "../components/HomeViewCards";
+import Cards from "../components/Cards";
 import CurrentWeatherInfo from "../components/CurrentWeatherInfo";
 import WeatherForecast from "../components/WeatherForecast";
 

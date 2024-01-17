@@ -1,4 +1,4 @@
-import Cards from "../components/HomeViewCards";
+import Cards from "../components/Cards";
 import Hero from "../components/Hero";
 
 function HomeView() {
