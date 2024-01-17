@@ -25,17 +25,19 @@ function AddLocationView() {
   return (
     <>
       <div className="headerBackground"></div>
-      <div className="spacer"></div>
-
-      <div className="formDescription">
-        <h2>Do you have a suggestion for us?</h2>
-        <br />
-        <h4>
-          Submit your travel ideas and you might find them featured in a future
-          post.
-        </h4>
+      <div className="formBackground">
+        <div className="formBackgroundMask"></div>
       </div>
+
       <div className="formContainer">
+        <div className="formDescription">
+          <h2>Do you have a suggestion for us?</h2>
+          <br />
+          <h4>
+            Submit your travel ideas and you might find them featured in a
+            future post.
+          </h4>
+        </div>
         <form onSubmit={handleSubmit}>
           <label>
             City:
