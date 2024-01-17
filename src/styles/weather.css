@@ -13,7 +13,7 @@
 .weatherInfo {
   align-items: center;
   display: flex;
-  padding: 12px;
+  padding-top: 12px;
 }
 
 .weatherDescription {
@@ -22,7 +22,7 @@
 
 .currentTemp {
   display: inline-block;
-  font-size: 32px;
+  font-size: 40px;
   margin: 24px;
 }
 
