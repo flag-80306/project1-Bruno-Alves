@@ -3,9 +3,16 @@
   margin: 0 96px;
 }
 
-#errorMessage {
-  font-size: 48px;
-  margin: 24px 96px 514px;
+.errorMessage {
+  margin: 24px 96px 323px;
+}
+
+.errorMessage > p {
+  padding: 8px;
+}
+
+.errorMessage > ul > li {
+  padding: 8px;
 }
 
 @media screen and (max-width: 1280px) {
@@ -14,8 +21,7 @@
     margin-left: 48px;
   }
 
-  #errorMessage {
-    font-size: 32px;
+  .errorMessage {
     margin-left: 48px;
   }
 }
