@@ -34,7 +34,7 @@ form {
   flex-direction: column;
   gap: 20px;
   justify-content: center;
-  margin: 0 96px;
+  margin: auto;
   max-width: 400px;
   min-height: 50vh;
   padding: 16px;
@@ -49,13 +49,13 @@ form > fieldset {
   border-radius: 8px;
   box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.25);
   display: inline-block;
-  margin: 0 96px 0 96px;
+  margin: 0 96px 0 48px;
   padding: 8px;
 }
 
 .formDescription > h4 {
   display: inline-block;
-  margin: 24px 96px;
+  margin: 24px 48px;
   padding: 8px;
 }
 
