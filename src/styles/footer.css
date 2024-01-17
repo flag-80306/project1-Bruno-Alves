@@ -1,12 +1,12 @@
 .footer {
+  align-items: center;
+  background-color: #3b465c;
+  bottom: 0;
+  color: #f8ebee;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  width: 100%;
-  background-color: #3b465c;
-  color: #f8ebee;
   position: relative;
-  bottom: 0;
+  width: 100%;
 }
 
 .footer > p {
@@ -20,8 +20,8 @@
 
 .footerIcons img {
   height: 24px;
-  width: 24px;
   margin: 12px;
+  width: 24px;
 }
 
 .footerIcons a {

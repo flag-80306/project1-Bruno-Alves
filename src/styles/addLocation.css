@@ -1,8 +1,8 @@
 .formBackground {
-  width: 100vw;
-  min-height: 922px;
   background: url("https://images.unsplash.com/photo-1452423668729-43a98052d3ee?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  min-height: 922px;
   position: absolute;
+  width: 100vw;
   z-index: -1;
 }
 
@@ -13,20 +13,20 @@
     rgba(0, 0, 0, 0.2)
   );
   height: 100%;
-  width: 100%;
   position: absolute;
+  width: 100%;
 }
 
 .formContainer {
   align-items: center;
-  justify-content: space-between;
+  color: #f8ebee;
   display: flex;
   flex-wrap: wrap;
   gap: 15px;
-  color: #f8ebee;
+  justify-content: space-between;
+  margin-bottom: 80px;
   min-height: 725px;
   padding-top: 80px;
-  margin-bottom: 80px;
 }
 
 form {
@@ -34,10 +34,10 @@ form {
   flex-direction: column;
   gap: 20px;
   justify-content: center;
+  margin: 0 96px;
   max-width: 400px;
   min-height: 50vh;
   padding: 16px;
-  margin: 0 96px;
 }
 
 form > fieldset {
@@ -46,10 +46,10 @@ form > fieldset {
 
 .formDescription > h2 {
   background-color: #3b465c;
-  display: inline-block;
-  margin: 0 96px 0 96px;
   border-radius: 8px;
   box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.25);
+  display: inline-block;
+  margin: 0 96px 0 96px;
   padding: 8px;
 }
 
