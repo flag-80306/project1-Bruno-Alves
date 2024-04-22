@@ -20,7 +20,6 @@ function App() {
         <Route path="/tripdetail/:id">
           {(params) => <CardDetailView id={params.id} />}
         </Route>
-        {/* <Route path="/tripdetail/:name" component={CardDetailView} /> */}
         <Route component={NotFoundView} />
       </Switch>
       <Footer />

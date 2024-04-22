@@ -4,8 +4,8 @@ function Hero() {
       <div className="heroImage">
         <div className="heroMask">
           <div className="heroDetail">
-            <h1>Project 1</h1>
-            <h1>The Travel Blog</h1>
+            <h1>Voyage Vibes</h1>
+            <h2>Discovering the World</h2>
           </div>
         </div>
       </div>

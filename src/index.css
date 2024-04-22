@@ -6,21 +6,20 @@
 @import url(styles/addLocation.css);
 @import url(styles/about.css);
 @import url(styles/carousel.css);
-@import url(styles/cardDetailView.css);
+@import url(styles/cityDetail.css);
+@import url(styles/weather.css);
+@import url(styles/pageNotFound.css);
 
 * {
   box-sizing: border-box;
 }
 
-/* :root {
-  position: relative;
-} */
-
 body {
+  background-color: #f8ebee;
+  color: #3b465c;
+  font-family: "Sarabun", sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #f8ebee;
-  font-family: "Sarabun", sans-serif;
 }
 
 a {
@@ -28,6 +27,6 @@ a {
 }
 
 p {
-  padding: 0;
   margin: 0;
+  padding: 0;
 }
